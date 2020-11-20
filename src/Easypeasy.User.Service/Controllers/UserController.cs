@@ -9,7 +9,6 @@ namespace Easypeasy.User.Service.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserService _userservice;
-
         public UserController(IUserService userservice)
         {
             _userservice = userservice;

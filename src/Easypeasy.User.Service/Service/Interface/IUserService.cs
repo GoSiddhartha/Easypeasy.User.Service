@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Easypeasy.User.Service.Service.Interface
+﻿namespace Easypeasy.User.Service.Service.Interface
 {
     public interface IUserService
     {
+        Domain.User GetUserByEmail(string email);
     }
 }
